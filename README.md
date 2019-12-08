@@ -20,7 +20,7 @@ A platform to deliver food recipes to people for their desired meal, ease the ch
 Java Android with Firebase.
 
 # Benefits
-- Saves time and stress thereby creating time for other things
+- Saves time and Reduces stress thereby creating time for other things
 - Creates Employment opporturnities
 - Is a source of revenue
 - Eliminates the fear of the unavailability of food stuffs locally
