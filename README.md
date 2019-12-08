@@ -20,4 +20,8 @@ A platform to help people get food recipes for their desired meal, to ease the c
 Java Android with Firebase.
 
 # Benefits
-- 
+- Saves time and stress thereby creating time for other things
+- Creates Employment opporturnities
+- is a source of revenue
+- Eliminates the fear of the unavailability of food stuffs locally
+- educates people on how to cook healthy balnced food
