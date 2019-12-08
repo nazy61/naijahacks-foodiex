@@ -6,7 +6,7 @@
   - Ogwo Chinaza Ogwo (ogwo.chinaza@yahoo.com)
   - Ejimnkeonye Onyekachukwu JohnPaul (onyekaejimns@gmail.com)
   - Eluwa Benson Obinna (obinnaeluwa34@gmail.com)
-  - Ezuma Emmanuel
+  - Ezuma Emmanuel (ezumachibuike@yahoo.com)
 # Problem
   - Challenges faced in purchasing food stuff, 
   - Lack of proper knowledge of the amount of ingredients needed to prepare a particular meal/for a paticular number of persons, 
