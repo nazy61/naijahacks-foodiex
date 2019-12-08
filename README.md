@@ -4,7 +4,7 @@
 
 ### Team Members
   - Ogwo Chinaza Ogwo
-  - Ejimnkeonya Onyekachukwu JohnPaul
+  - Ejimnkeonye Onyekachukwu JohnPaul (onyekaejimns@gmail.com)
   - Eluwa Benson Obinna
   - Ezuma Emmanuel
 # Problem
