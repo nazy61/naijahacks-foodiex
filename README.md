@@ -5,7 +5,7 @@
 ### Team Members
   - Ogwo Chinaza Ogwo (ogwo.chinaza@yahoo.com)
   - Ejimnkeonye Onyekachukwu JohnPaul (onyekaejimns@gmail.com)
-  - Eluwa Benson Obinna
+  - Eluwa Benson Obinna (obinnaeluwa34@gmail.com)
   - Ezuma Emmanuel
 # Problem
 
