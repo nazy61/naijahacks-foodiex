@@ -9,7 +9,7 @@ import android.view.View;
 import com.google.android.material.button.MaterialButton;
 import com.nazycodes.foodiex.R;
 
-public class LoginScreen extends AppCompatActivity {
+public class SignupScreen extends AppCompatActivity {
 
     private MaterialButton btnLogin;
     private MaterialButton btnSignUp;
@@ -17,24 +17,31 @@ public class LoginScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_screen);
+        setContentView(R.layout.activity_signup_screen);
 
-        btnLogin = findViewById(R.id.loginButton);
+        btnLogin = findViewById(R.id.login);
         btnSignUp = findViewById(R.id.signUpButton);
-
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginScreen.this, SignupScreen.class);
-                startActivity(intent);
+
             }
         });
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignupScreen.this, LoginScreen.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
     }
 }
