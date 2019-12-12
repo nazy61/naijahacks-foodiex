@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245943028742",
+    "firebase_url": "https://foodiex-dc12a.firebaseio.com",
+    "project_id": "foodiex-dc12a",
+    "storage_bucket": "foodiex-dc12a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245943028742:android:c26f8fbe0ac57d7340c787",
+        "android_client_info": {
+          "package_name": "com.nazycodes.foodiex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245943028742-baj7hk3dof4edjhsihds9i3qsodtfmp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nazycodes.foodiex",
+            "certificate_hash": "846139ab7ae7e3de3db9c48076f3e72eaf0179cd"
+          }
+        },
+        {
+          "client_id": "245943028742-82bpf4apbbsaeurokc1vbd8js6tc6uh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJf65P0gU8pCZw6cZ11GFNnAp-fkpzf3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245943028742-82bpf4apbbsaeurokc1vbd8js6tc6uh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
