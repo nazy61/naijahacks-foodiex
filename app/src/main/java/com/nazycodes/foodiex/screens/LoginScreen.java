@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
+import com.nazycodes.foodiex.MainActivity;
 import com.nazycodes.foodiex.R;
 
 public class LoginScreen extends AppCompatActivity {
@@ -25,7 +26,9 @@ public class LoginScreen extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(LoginScreen.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 

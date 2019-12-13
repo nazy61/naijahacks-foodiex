@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
+import com.nazycodes.foodiex.MainActivity;
 import com.nazycodes.foodiex.R;
 
 public class SignupScreen extends AppCompatActivity {
@@ -25,7 +26,9 @@ public class SignupScreen extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(SignupScreen.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
