@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_background"
+    android:background="@drawable/bg"
     android:fillViewport="true"
     tools:context=".screens.SignupScreen">
 
@@ -49,16 +49,17 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="24dp"
-            android:hint="Username"
+            android:hint="Email"
             app:boxBackgroundColor="@android:color/white"
             app:layout_constraintBottom_toTopOf="@+id/passwordLayout"
             app:layout_constraintStart_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/passwordLayout">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -79,6 +80,7 @@
             app:layout_constraintStart_toStartOf="@+id/loginButton">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />

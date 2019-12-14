@@ -9,14 +9,14 @@ import androidx.fragment.app.Fragment;
 
 import com.nazycodes.foodiex.R;
 
-public class HealthBenefitsFragment extends Fragment {
+public class ByNumberOfPersonsFragment extends Fragment {
 
-    public static final String TITLE = "Benefits";
+    public static final String TITLE = "By Number of Persons";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         // Defines the xml file for the fragment
-        return inflater.inflate(R.layout.health_benefits_fragment, parent, false);
+        return inflater.inflate(R.layout.by_persons_fragment, parent, false);
     }
 
     // This event is triggered soon after onCreateView().

@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -73,5 +74,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        if(navigationView.getSelectedItemId() == R.id.navigation_home){
+            finish();
+            return;
+        }
+
+        Menu menu = navigationView.getMenu();
+        menu.findItem(R.id.navigation_home).setChecked(true);
+        navigationView.setSelectedItemId(R.id.navigation_home);
+        fragment = new HomeFragment();
+        loadFragment(fragment);
+
     }
 }

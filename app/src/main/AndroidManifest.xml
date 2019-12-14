@@ -12,7 +12,12 @@
         android:roundIcon="@drawable/foodie_black"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".screens.FoodDetailsScreen"></activity>
+        <activity
+            android:name=".screens.OrderScreen"
+            android:theme="@style/AppTheme.FullScreen"></activity>
+        <activity
+            android:name=".screens.FoodDetailsScreen"
+            android:theme="@style/AppTheme.FullScreen"/>
         <activity
             android:name=".screens.SignupScreen"
             android:theme="@style/AppTheme.FullScreen" />

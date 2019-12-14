@@ -6,15 +6,14 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.nazycodes.foodiex.fragments.DetailsFragment;
-import com.nazycodes.foodiex.fragments.HealthBenefitsFragment;
-import com.nazycodes.foodiex.fragments.HowToCookFragment;
+import com.nazycodes.foodiex.fragments.ByNumberOfPersonsFragment;
+import com.nazycodes.foodiex.fragments.ByPotFragment;
 
-public class ViewPagerAdapter extends FragmentStatePagerAdapter {
+public class OrderViewPagerAdapter extends FragmentStatePagerAdapter {
 
-    private static int TAB_COUNT = 3;
+    private static int TAB_COUNT = 2;
 
-    public ViewPagerAdapter(FragmentManager fm){
+    public OrderViewPagerAdapter(FragmentManager fm){
         super(fm);
     }
 
@@ -23,12 +22,10 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return new DetailsFragment();
+                return new ByPotFragment();
             case 1:
-                return new HealthBenefitsFragment();
-            case 2:
-                return new HowToCookFragment();
-        }
+                return new ByNumberOfPersonsFragment();
+            }
         return null;
     }
 
@@ -43,12 +40,10 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                return DetailsFragment.TITLE;
+                return ByPotFragment.TITLE;
             case 1:
-                return HealthBenefitsFragment.TITLE;
-            case 2:
-                return HowToCookFragment.TITLE;
-        }
+                return ByNumberOfPersonsFragment.TITLE;
+            }
 
         return super.getPageTitle(position);
     }
