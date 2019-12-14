@@ -1,0 +1,22 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./fonts/Comfortaa-Regular.ttf");
+  font-weight: bold;
+}
+
+// @font-face {
+//   font-family: 'Comfortaa';
+//   src: url('./fonts/Comfortaa-Regular.ttf');
+// }
+
+// @font-face {
+//   font-family: 'Comfortaa';
+//   src: url('./fonts/Comfortaa-Light.ttf');
+// }
+
+body {
+  font-size: 16px;
+  font-family: "Comfortaa", cursive !important;
+}
